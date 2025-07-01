@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game {
+  position: relative;
+}
+
+canvas {
+  border: 2px solid #fff;
+  background: #222;
+}
+
+.controls {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+button:active {
+  background: #555;
+}
